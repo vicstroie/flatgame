@@ -21,6 +21,6 @@ public class GameSounds : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         sound.Stop();
-        collision.gameObject.GetComponent<AudioSource>().volume = 0.4f;
+        collision.gameObject.GetComponent<AudioSource>().volume = 0.3f;
     }
 }
